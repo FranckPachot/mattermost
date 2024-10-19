@@ -1,3 +1,4 @@
+DO $DO$
 declare
  version text;
 begin
@@ -12,3 +13,4 @@ begin
  $DDL$;
  end if;
 end;
+$DO$;
